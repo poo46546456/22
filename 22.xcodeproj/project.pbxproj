@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		4EEA1A52255CD2F3005990B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEA1A51255CD2F3005990B2 /* AppDelegate.swift */; };
 		4EEA1A54255CD2F3005990B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEA1A53255CD2F3005990B2 /* SceneDelegate.swift */; };
-		4EEA1A56255CD2F3005990B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEA1A55255CD2F3005990B2 /* ViewController.swift */; };
 		4EEA1A59255CD2F3005990B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEA1A57255CD2F3005990B2 /* Main.storyboard */; };
 		4EEA1A5B255CD2F3005990B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EEA1A5A255CD2F3005990B2 /* Assets.xcassets */; };
 		4EEA1A5E255CD2F3005990B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEA1A5C255CD2F3005990B2 /* LaunchScreen.storyboard */; };
 		4EEA1A69255CD2F3005990B2 /* _2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEA1A68255CD2F3005990B2 /* _2Tests.swift */; };
 		4EEA1A74255CD2F3005990B2 /* _2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEA1A73255CD2F3005990B2 /* _2UITests.swift */; };
+		4EEA1A82255CD339005990B2 /* SportsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEA1A81255CD339005990B2 /* SportsTableViewController.swift */; };
+		4EEA1A86255CDC8E005990B2 /* SportsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEA1A85255CDC8E005990B2 /* SportsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		4EEA1A4E255CD2F3005990B2 /* 22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 22.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EEA1A51255CD2F3005990B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EEA1A53255CD2F3005990B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4EEA1A55255CD2F3005990B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4EEA1A58255CD2F3005990B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EEA1A5A255CD2F3005990B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EEA1A5D255CD2F3005990B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		4EEA1A6F255CD2F3005990B2 /* 22UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 22UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EEA1A73255CD2F3005990B2 /* _2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2UITests.swift; sourceTree = "<group>"; };
 		4EEA1A75255CD2F3005990B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EEA1A81255CD339005990B2 /* SportsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsTableViewController.swift; sourceTree = "<group>"; };
+		4EEA1A85255CDC8E005990B2 /* SportsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				4EEA1A51255CD2F3005990B2 /* AppDelegate.swift */,
 				4EEA1A53255CD2F3005990B2 /* SceneDelegate.swift */,
-				4EEA1A55255CD2F3005990B2 /* ViewController.swift */,
 				4EEA1A57255CD2F3005990B2 /* Main.storyboard */,
 				4EEA1A5A255CD2F3005990B2 /* Assets.xcassets */,
 				4EEA1A5C255CD2F3005990B2 /* LaunchScreen.storyboard */,
 				4EEA1A5F255CD2F3005990B2 /* Info.plist */,
+				4EEA1A81255CD339005990B2 /* SportsTableViewController.swift */,
+				4EEA1A85255CDC8E005990B2 /* SportsTableViewCell.swift */,
 			);
 			path = 22;
 			sourceTree = "<group>";
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EEA1A56255CD2F3005990B2 /* ViewController.swift in Sources */,
 				4EEA1A52255CD2F3005990B2 /* AppDelegate.swift in Sources */,
+				4EEA1A82255CD339005990B2 /* SportsTableViewController.swift in Sources */,
+				4EEA1A86255CDC8E005990B2 /* SportsTableViewCell.swift in Sources */,
 				4EEA1A54255CD2F3005990B2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
